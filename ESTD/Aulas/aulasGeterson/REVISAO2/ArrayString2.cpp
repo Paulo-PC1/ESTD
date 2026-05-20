@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main(void)
+{
+    int a[]{1, 2, 3, 4, 5};
+
+    for(int i = 4; i >= 0; --i){
+        cout << a[i] << "-";
+    }
+
+    cout << endl;
+
+    return 0;
+}
+
